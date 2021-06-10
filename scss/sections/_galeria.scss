@@ -1,0 +1,42 @@
+@import '../components/extends';
+
+/*SECCION GALERIA*/
+body div.fila-galeria {
+    @extend %fila-galeria
+}
+
+body div img.bordefoto {
+    border: 5px rgb(233, 165, 165) ridge;
+    transition: all 2s;
+    /*Chrome y Edge*/
+    -webkit-transition: all 2s;
+    /*Mozilla*/
+    -moz-transition: all 2s;
+    /*Opera*/
+    -o-transition: all 2s;
+
+    &:hover {
+        transform: scale(1.5);
+        /*Chrome y Edge*/
+        -webkit-transform: scale(1.5);
+        /*Mozilla*/
+        -moz-transform: scale(1.5);
+        /*Opera*/
+        -o-transform: scale(1.5);
+    }
+}
+
+body div.ayd {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 5px outset rgb(233, 165, 165);
+    background-color: rosybrown;
+}
+
+.img-ayd {
+    width: 40%;
+}
+/*FIN SECCION GALERIA*/

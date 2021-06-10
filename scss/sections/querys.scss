@@ -1,0 +1,189 @@
+/*QUERYS SOBRE MI*/
+@media only screen and (max-width: 400px) {
+    
+    .sobre-mi {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+        
+    .sobre-mi {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .footer-mobile {
+        display: none;
+    }
+}
+
+/*QUERYS SERVICIOS*/
+
+@media only screen and (max-width: 400px) {
+    .container-cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+    .container-cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+    
+}
+
+/*QUERYS GALERIA*/
+
+@media only screen and (max-width: 400px) {
+    .fila-galeria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bordefoto {
+        width: 50%;
+    }
+    .bordefoto-mobile {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+    .fila-galeria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bordefoto {
+        width: 50%;
+    }
+    .bordefoto-mobile {
+        margin-bottom: 15px;
+    }
+
+}
+
+/*QUERYS CONTACTO*/
+
+@media only screen and (max-width: 400px) {
+    .container-contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+    .container-contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*QUERYS PROTOCOLO*/
+
+@media only screen and (max-width: 400px) {
+    .fotos-protocolo {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+    .fotos-protocolo {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*MENU MOBILE*/
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+    .header {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:961px) {
+    .menu-mobile {
+        display: none;
+    }
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: rgb(243, 199, 199);
+    color: black;
+}
+
+.active {
+    background-color: rgb(233, 165, 165);
+    color: white;
+}

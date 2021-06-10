@@ -1,0 +1,49 @@
+body section.protocolo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        background-color: rgb(233, 165, 165);
+        font-size: 25px;
+    }
+
+    div {
+        display: flex;
+    }
+}
+
+body section.prevencion {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+body section.protocolo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body section.container-protocolo {
+    display: flex;
+    margin: 15px;
+    margin-top: 30px;
+
+    div.prevencion2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-right: 80px;
+        font-size: 20px;
+        width: 600px;
+        justify-content: center;
+    }
+}
+
+.titulo-protocolo {
+    background-color: nth($colores, 2);
+}

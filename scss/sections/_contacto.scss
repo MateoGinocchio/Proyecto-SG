@@ -1,0 +1,27 @@
+/*SECCION CONTACTO*/
+
+body div.container-contacto {
+    display: flex;
+
+    section.mapa {
+        margin: 10px;
+    }
+
+    section a p {
+        margin-left: 10px;
+        word-spacing: 5px;
+        color: black;
+    }
+}
+
+body section div div.seccion-contacto {
+    display: flex;
+}
+.contactate {
+    margin-top: 25px;
+}
+
+.tamaño-h {
+    font-size: 35px;
+    background-color: nth($colores, 2);
+}

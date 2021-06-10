@@ -1,0 +1,64 @@
+@import '../components/variables';
+
+html {
+    background-image: url(../images/fondo-bordes.jpg);
+    padding-left: 150px ;
+    padding-right: 150px;
+    width: 1263.33;
+}
+
+body {
+    font-family:'Josefin sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: $bg-color-body;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2000;
+}
+
+ul {
+    padding: 0px;
+}
+
+footer {
+    background-color: rgb(233, 165, 165);
+}
+
+.divisor {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*MOBILE-TABLET-DESKTOP*/
+@media only screen and (max-width: 400px) {
+    html {
+        padding: 0%;
+    }
+    .mobile {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+    html {
+        padding: 0%;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:961px) {
+    html {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}

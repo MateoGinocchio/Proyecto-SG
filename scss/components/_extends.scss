@@ -1,0 +1,12 @@
+%servicios {
+    display: flex;
+    background-color: rgb(226, 187, 187);
+    margin: 15px;
+    border: black 1px solid;
+}
+
+%fila-galeria {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}

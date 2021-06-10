@@ -1,0 +1,92 @@
+<body>
+
+    <div class="container">
+        <div class="error">
+            <p>Error</p>
+            <p>404</p>
+        </div>
+
+        <div class="not-found">
+
+            <h1>¡Not Found!</h1>
+
+            <p>_______</p>
+
+            <p class="sorry">Sorry, we can´t find what you´re looking for.</p>
+
+            <a class="boton" href="index.html">
+                <p class="botonp">Go back home</p>
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <style>
+        body {
+            background-color: slategrey;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        p {
+            margin: 0px;
+            padding: 0px;
+            font-size: 30px;
+        }
+
+        .error {
+            position: relative;
+            border: 4px solid red;
+            border-radius: 70px;
+            height: 100px;
+            width: 100px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .not-found {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .sorry {
+            font-size: 20px;
+            margin-top: 50px;
+        }
+
+        .boton {
+            border: 1px red solid;
+            text-decoration: none;
+            list-style: none;
+            color: black;
+            margin-top: 30px;
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .botonp {
+            font-size: 20px;
+            margin: 5px;
+        }
+
+        a:hover {
+            background-color: red;
+        }
+    </style>
+</body>

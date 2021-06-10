@@ -1,0 +1,85 @@
+/*SECCION SOBRE MI*/
+.sobre-mi {
+    display: flex;
+    border: 1px solid black;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin-left: 100px;
+        margin-top: 10px;
+        margin-right: 100px;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+    }
+
+    p {
+        margin: 4px;
+        display: flex;
+        justify-content: center;
+    }
+}
+/*FIN SECCION SOBRE MI*/
+
+/*SECCION TURNOS*/
+body section.turnos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.texto-turnos {
+    width: 950px;
+    display: inline-block;
+}
+
+.titulo-turnos {
+    word-spacing: 8px;
+    letter-spacing: 6px;
+    margin-top: 15px;
+    background-color: nth($colores, 2);
+}
+/*FIN SECCION TURNOS*/
+
+/*PIE DE PAGINA SIMPLE*/
+.footer-contacto {
+    background: rgb(224,190,155);
+    background: linear-gradient(180deg, 
+    rgba(224,190,155,1) 0%, 
+    rgba(181,129,121,1) 50%);
+    display: flex;
+    align-items: center;
+}
+
+footer div.footer-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 565px;
+
+    div h3 {
+        font-family: 'Cinzel', serif;
+        font-size: 35px;
+        width: 353px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        font-family: 'Cinzel', serif;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+}
+
+footer div.footer-redes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*FIN PIE DE PAGINA SIMPLE*/
