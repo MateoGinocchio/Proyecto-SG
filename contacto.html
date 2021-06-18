@@ -57,6 +57,37 @@
 
     </header>
 
+        <!--MENU MOBILE-->
+    <section class="menu-mobile">
+        <div class="topnav">
+            <div class="active">
+                <img src="images/icono-mobile.jpg" alt="" width="50px">
+                <div id="myLinks">
+                    <a href="index.html">Inicio</a>
+                    <a href="sobre-mi.html">Sobre Mi</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="galeria-antesydespues.html">Galeria</a>
+                    <a href="contacto.html">Contacto</a>
+                    <a href="protocolo-covid19.html">Protocolo</a>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img width="58px" src="images/hamburguesa.png" alt="">
+            </a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+    </section>
+
     <!--Parte derecha superior-->
     <section class="mobile">
         <div class="sup-der">
@@ -105,7 +136,7 @@
             </section>
 
             <section>
-                <h2 style="display: block; background-color: rgb(233, 165, 165);">Datos del contacto</h2>
+                <h2 style="background-color: rgb(233, 165, 165);">Datos del contacto</h2>
                 <div>
                     <div class="seccion-contacto">
                         <img src="images/marcador-de-posicion.png" width="30" height="30"

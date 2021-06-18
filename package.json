@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoGinocchio/Proyecto-SG.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MateoGinocchio/Proyecto-SG/issues"
+  },
+  "homepage": "https://github.com/MateoGinocchio/Proyecto-SG#readme",
   "description": ""
 }

@@ -64,10 +64,14 @@ header {
     justify-content: space-evenly;
 }
 
+.container-mensajitos {
+    width: 963.33;
+}
+
 .animacion-mensaje {
     border: 5px rgb(233, 165, 165) ridge;
     transition: all 2s;
-    width: 250px;
+    width: 25%;
     /*Chrome y Edge*/
     -webkit-transition: all 2s;
     /*Mozilla*/
@@ -89,12 +93,20 @@ header {
 
 /*SERVICIOS*/
 .servicio {
-    text-align: center;
-    background-color: rgb(233, 165, 165);
-    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
     margin-top: 50px;
-    margin-bottom: 70px;
-    font-weight: bolder;
+    margin-bottom: 30px;
+    background-color: rgb(233, 165, 165);
+    width: 400px;
+    height: 37px;
+}
+
+.align-title {
+    display: flex;
+    justify-content: center;
+
 }
 
 body section div.container-servicio {
@@ -108,6 +120,10 @@ body section div div.text-title1 {
     font-size: 20px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+body section div div p {
+    font-size: 16px;
 }
 /*FIN SERVICIOS*/
 
