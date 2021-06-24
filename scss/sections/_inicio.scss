@@ -1,27 +1,28 @@
 @import '../components/lists';
 @import '../components/extends';
 
-/*PARTE SUPERIOR DERECHA*/
-.sup-der {
-    position: absolute;
-    top: 0px;
-    left: 790px;
-}
-
-.wp-foto {
-    display: flex;
-    position: relative;
-    left: 285px;
-}
-/*FIN PARTE SUPERIOR DERECHA*/
 /*MENU*/
-header {
-    background-color: rgb(233, 165, 165);
 
+.container-menu {
+    display: flex;
+
+}
+
+header {
+    background-color: $bg-color-menu;
     div {
-        background-color: $bg-color-menu;
         width: auto;
         margin: 0px;
+    }
+
+    img {
+        margin-top: 5px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
     }
 
     nav ul li {
@@ -36,6 +37,8 @@ header {
         margin-top: 10px;
         color: black;
         font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 700;
 
         &:hover {
             color: lightcoral;
@@ -132,7 +135,10 @@ body section div div p {
 footer section.redes {
     text-align: center;
 
-    a img {
+    a {
+        text-decoration: none;
+        list-style: none;
+    } img {
         margin-top: 10px;
     }
 }
@@ -144,7 +150,7 @@ footer section nav ul li {
     a {
         text-decoration: none;
         margin: 10px;
-        color: white;
+        color: black;
         padding: 2px;
     }
     
@@ -154,12 +160,26 @@ footer section nav ul li {
         top: 6px;
         margin-left: 5px;
         margin-right: 5px;
-        color: white;
+        color: black;
+        font-weight: bolder;
     }
 }
 .sg {
     text-align: center;
     margin: 0%;
-    color: white;
-    font-weight: bold;
+    color: black;
 }
+
+.separador {
+    width: 300px;
+    position: relative;
+    left: 330px;
+    top: -10px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

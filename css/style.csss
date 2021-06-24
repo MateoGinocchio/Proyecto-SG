@@ -30,10 +30,9 @@ footer {
   background-color: #e9a5a5;
 }
 
-hr {
+.divisor {
   margin: 0px;
   padding: 0px;
-  color: black;
 }
 
 /*MOBILE-TABLET-DESKTOP*/
@@ -73,25 +72,28 @@ body div.fila-galeria {
   margin-bottom: 15px;
 }
 
-/*MENU*/
-.container-menu {
-  display: flex;
+/*PARTE SUPERIOR DERECHA*/
+.sup-der {
+  position: absolute;
+  top: 0px;
+  left: 790px;
 }
 
+.wp-foto {
+  display: flex;
+  position: relative;
+  left: 285px;
+}
+
+/*FIN PARTE SUPERIOR DERECHA*/
+/*MENU*/
 header {
   background-color: #e9a5a5;
 }
 header div {
+  background-color: #e9a5a5;
   width: auto;
   margin: 0px;
-}
-header img {
-  margin-top: 5px;
-}
-header nav {
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
 }
 header nav ul li {
   display: flex;
@@ -104,8 +106,6 @@ header a {
   margin-top: 10px;
   color: black;
   font-size: 20px;
-  font-family: sans-serif;
-  font-weight: 700;
 }
 header a:hover {
   color: lightcoral;
@@ -193,11 +193,7 @@ body section div div p {
 footer section.redes {
   text-align: center;
 }
-footer section.redes a {
-  text-decoration: none;
-  list-style: none;
-}
-footer section.redes img {
+footer section.redes a img {
   margin-top: 10px;
 }
 
@@ -208,7 +204,7 @@ footer section nav ul li {
 footer section nav ul li a {
   text-decoration: none;
   margin: 10px;
-  color: black;
+  color: white;
   padding: 2px;
 }
 footer section nav ul li p {
@@ -217,27 +213,14 @@ footer section nav ul li p {
   top: 6px;
   margin-left: 5px;
   margin-right: 5px;
-  color: black;
-  font-weight: bolder;
+  color: white;
 }
 
 .sg {
   text-align: center;
   margin: 0%;
-  color: black;
-}
-
-.separador {
-  width: 300px;
-  position: relative;
-  left: 330px;
-  top: -10px;
-}
-
-.container-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  color: white;
+  font-weight: bold;
 }
 
 /*SECCION SOBRE MI*/
@@ -467,27 +450,6 @@ body section.container-protocolo div.prevencion2 {
 
 /*Variables*/
 /*QUERYS SOBRE MI*/
-@media only screen and (min-width: 370px) and (max-width: 960px) {
-  .container-mobile {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.239);
-    align-items: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    border: #e9a5a5 2px solid;
-  }
-  .container-mobile img {
-    margin-top: 15px;
-  }
-
-  .p-mobile {
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-  }
-}
 @media only screen and (max-width: 400px) {
   .sobre-mi {
     display: flex;
@@ -594,28 +556,20 @@ body section.container-protocolo div.prevencion2 {
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 370px) and (max-width: 960px) {
+@media only screen and (min-width: 401px) and (max-width: 960px) {
   .fotos-protocolo {
     display: flex;
     flex-direction: column;
   }
 }
 /*MENU MOBILE*/
-@media only screen and (min-width: 370px) and (max-width: 960px) {
+@media only screen and (min-width: 401px) and (max-width: 960px) {
   .header {
-    display: none;
-  }
-
-  .servicios-desktop {
     display: none;
   }
 }
 @media only screen and (min-width: 961px) {
   .menu-mobile {
-    display: none;
-  }
-
-  .servicios-mobile {
     display: none;
   }
 }
@@ -626,12 +580,6 @@ body section.container-protocolo div.prevencion2 {
   height: 500px;
   color: white;
   border-radius: 10px;
-}
-
-.menu-mobile {
-  position: sticky;
-  top: 0;
-  z-index: 10000;
 }
 
 .topnav {
@@ -671,4 +619,4 @@ body section.container-protocolo div.prevencion2 {
   color: white;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.csss.map */

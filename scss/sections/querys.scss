@@ -1,4 +1,27 @@
 /*QUERYS SOBRE MI*/
+
+@media only screen and (min-width:370px) and (max-width:960px) {
+    .container-mobile {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.239);
+        align-items: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        border: rgb(233, 165, 165) 2px solid;
+        
+        img {
+            margin-top: 15px;
+        }
+    }
+    .p-mobile {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     
     .sobre-mi {
@@ -121,7 +144,7 @@
     }
 }
 
-@media only screen and (min-width:401px) and (max-width:960px) {
+@media only screen and (min-width:370px) and (max-width:960px) {
     .fotos-protocolo {
         display: flex;
         flex-direction: column;
@@ -130,15 +153,22 @@
 
 /*MENU MOBILE*/
 
-@media only screen and (min-width:401px) and (max-width:960px) {
+@media only screen and (min-width:370px) and (max-width:960px) {
     .header {
         display: none;
     }
 
+    .servicios-desktop {
+        display: none;
+    }
 }
 
 @media only screen and (min-width:961px) {
     .menu-mobile {
+        display: none;
+    }
+
+    .servicios-mobile {
         display: none;
     }
 }
@@ -150,6 +180,12 @@
     height: 500px;
     color: white;
     border-radius: 10px;
+}
+
+.menu-mobile {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
 }
 
 .topnav {
