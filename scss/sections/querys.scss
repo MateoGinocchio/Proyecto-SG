@@ -224,3 +224,55 @@
     background-color: rgb(233, 165, 165);
     color: white;
 }
+
+/*FOOTER DESKTOP*/
+
+@media only screen and (min-width:370px) and (max-width:960px) {
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-sobremi {
+        display: none;
+    }
+}
+
+/*FOOTER MOBILE*/
+
+.footer-celular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.mobile-redes {
+    margin: 10px;
+}
+
+.texto-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.texto-mobile p {
+    padding: 0%;
+    margin: 0%;
+}
+
+@media only screen and (min-width:961px) {
+    .footer-celular {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:370px) and (max-width:960px) {
+    .container-protocolo {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+}

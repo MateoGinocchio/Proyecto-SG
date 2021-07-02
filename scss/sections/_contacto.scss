@@ -25,3 +25,12 @@ body section div div.seccion-contacto {
     font-size: 35px;
     background-color: nth($colores, 2);
 }
+
+/*QUERY MAPA*/
+
+@media only screen and (min-width:370px) and (max-width:960px) {
+    body div.container-contacto section iframe {
+        width: 350px;
+        height: 200px;
+    }
+}

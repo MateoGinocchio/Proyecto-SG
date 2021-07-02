@@ -10,6 +10,10 @@
 
 header {
     background-color: $bg-color-menu;
+    border-left: solid 2px black;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-bottom:  solid 1px black;
     div {
         width: auto;
         margin: 0px;
@@ -129,57 +133,4 @@ body section div div p {
     font-size: 16px;
 }
 /*FIN SERVICIOS*/
-
-/*PIE DE PAGINA*/
-
-footer section.redes {
-    text-align: center;
-
-    a {
-        text-decoration: none;
-        list-style: none;
-    } img {
-        margin-top: 10px;
-    }
-}
-
-footer section nav ul li {
-    display: flex;
-    justify-content: center;
-
-    a {
-        text-decoration: none;
-        margin: 10px;
-        color: black;
-        padding: 2px;
-    }
-    
-    p {
-        font-size: 20px;
-        position: relative;
-        top: 6px;
-        margin-left: 5px;
-        margin-right: 5px;
-        color: black;
-        font-weight: bolder;
-    }
-}
-.sg {
-    text-align: center;
-    margin: 0%;
-    color: black;
-}
-
-.separador {
-    width: 300px;
-    position: relative;
-    left: 330px;
-    top: -10px;
-}
-
-.container-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 

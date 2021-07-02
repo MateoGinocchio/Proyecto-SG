@@ -1,21 +1,22 @@
 /*SECCION SOBRE MI*/
 .sobre-mi {
     display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid black;
+    margin-top: 10px;
 
     div {
         display: flex;
         flex-direction: column;
         justify-items: center;
-        margin-left: 100px;
-        margin-top: 10px;
-        margin-right: 100px;
+
     }
 
     h1 {
         display: flex;
         justify-content: center;
-        text-decoration: underline;
+        font-weight: 900;
     }
 
     p {
@@ -33,7 +34,7 @@ body section.turnos {
     justify-content: center;
 }
 
-.texto-turnos {
+div.texto-turnos {
     width: 950px;
     display: inline-block;
 }
@@ -46,40 +47,30 @@ body section.turnos {
 }
 /*FIN SECCION TURNOS*/
 
-/*PIE DE PAGINA SIMPLE*/
-.footer-contacto {
-    background: rgb(224,190,155);
-    background: linear-gradient(180deg, 
-    rgba(224,190,155,1) 0%, 
-    rgba(181,129,121,1) 50%);
+/*FOOTER SOBRE MI/CONTACTO*/
+
+.container-footer {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-footer div.footer-text {
+.img-footer {
     display: flex;
     flex-direction: column;
-    margin-right: 565px;
-
-    div h3 {
-        font-family: 'Cinzel', serif;
-        font-size: 35px;
-        width: 353px;
-        margin-left: 10px;
-        margin-bottom: 0px;
-    }
-
-    p {
-        font-family: 'Cinzel', serif;
-        margin-left: 10px;
-        margin-bottom: 0px;
-    }
+    justify-content: flex-end;
+    margin: 10px;
 }
 
-footer div.footer-redes {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
+footer section div.img-footer img {
+    margin-bottom: 5px;
 }
-/*FIN PIE DE PAGINA SIMPLE*/
+
+.footer-sobremi {
+    background-image: url(../images/footer-sg-va2.jpg);
+    background-color: nth($colores, 3);
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+    border-top:  solid 1px black;
+}

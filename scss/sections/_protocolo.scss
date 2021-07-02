@@ -31,7 +31,7 @@ body section.protocolo {
 body section.container-protocolo {
     display: flex;
     margin: 15px;
-    margin-top: 30px;
+
 
     div.prevencion2 {
         display: flex;
@@ -39,11 +39,11 @@ body section.container-protocolo {
         margin-top: 15px;
         margin-right: 80px;
         font-size: 20px;
-        width: 600px;
         justify-content: center;
     }
 }
 
 .titulo-protocolo {
     background-color: nth($colores, 2);
+    text-align: center;
 }

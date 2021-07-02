@@ -35,6 +35,11 @@ hr {
     color: black;
 }
 
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
 /*MOBILE-TABLET-DESKTOP*/
 @media only screen and (max-width: 400px) {
     html {

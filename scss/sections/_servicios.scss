@@ -4,7 +4,9 @@
 .servicio-titulo {
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 30px;
+    margin-top: 15px;
+    background-color: nth($colores, 2);
 }
 
 body div.container-cards {
@@ -27,3 +29,55 @@ body div.container-cards {
     }
 }
 /*FIN SECCION SERVICIOS*/
+
+/*PIE DE PAGINA DESKTOP*/
+
+footer section.redes {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        list-style: none;
+    } img {
+        margin-top: 10px;
+    }
+}
+
+footer section nav ul li {
+    display: flex;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+        margin: 10px;
+        color: black;
+        padding: 2px;
+    }
+
+    a:hover {
+        color: lightcoral;
+    }
+    
+    p {
+        font-size: 20px;
+        position: relative;
+        top: 6px;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: black;
+        font-weight: bolder;
+    }
+}
+.sg {
+    text-align: center;
+    margin: 0%;
+    color: black;
+}
+
+.eldivisorchoto {
+    width: 300px;
+    position: relative;
+    left: 330px;
+    top: -10px;
+}
+

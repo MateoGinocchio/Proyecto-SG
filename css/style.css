@@ -36,6 +36,11 @@ hr {
   color: black;
 }
 
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
 /*MOBILE-TABLET-DESKTOP*/
 @media only screen and (max-width: 400px) {
   html {
@@ -80,6 +85,10 @@ body div.fila-galeria {
 
 header {
   background-color: #e9a5a5;
+  border-left: solid 2px black;
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  border-bottom: solid 1px black;
 }
 header div {
   width: auto;
@@ -189,7 +198,106 @@ body section div div p {
 }
 
 /*FIN SERVICIOS*/
-/*PIE DE PAGINA*/
+/*SECCION SOBRE MI*/
+.sobre-mi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.sobre-mi div {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.sobre-mi h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+}
+.sobre-mi p {
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+/*FIN SECCION SOBRE MI*/
+/*SECCION TURNOS*/
+body section.turnos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.texto-turnos {
+  width: 950px;
+  display: inline-block;
+}
+
+.titulo-turnos {
+  word-spacing: 8px;
+  letter-spacing: 6px;
+  margin-top: 15px;
+  background-color: #e9a5a5;
+}
+
+/*FIN SECCION TURNOS*/
+/*FOOTER SOBRE MI/CONTACTO*/
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+footer section div.img-footer img {
+  margin-bottom: 5px;
+}
+
+.footer-sobremi {
+  background-image: url(../images/footer-sg-va2.jpg);
+  background-color: #e2bbbb;
+  border-left: solid 3px black;
+  border-bottom: solid 3px black;
+  border-right: solid 3px black;
+  border-top: solid 1px black;
+}
+
+/*SECCION SERVICIOS*/
+.servicio-titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 15px;
+  background-color: #e9a5a5;
+}
+
+body div.container-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+body div.container-cards div div.bg-card {
+  background-color: #f3c7c7;
+}
+body div.container-cards div.alineacion-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body div.container-cards h5 {
+  background-color: #e9a5a5;
+}
+
+/*FIN SECCION SERVICIOS*/
+/*PIE DE PAGINA DESKTOP*/
 footer section.redes {
   text-align: center;
 }
@@ -211,6 +319,9 @@ footer section nav ul li a {
   color: black;
   padding: 2px;
 }
+footer section nav ul li a:hover {
+  color: lightcoral;
+}
 footer section nav ul li p {
   font-size: 20px;
   position: relative;
@@ -227,123 +338,13 @@ footer section nav ul li p {
   color: black;
 }
 
-.separador {
+.eldivisorchoto {
   width: 300px;
   position: relative;
   left: 330px;
   top: -10px;
 }
 
-.container-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/*SECCION SOBRE MI*/
-.sobre-mi {
-  display: flex;
-  border: 1px solid black;
-}
-.sobre-mi div {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  margin-left: 100px;
-  margin-top: 10px;
-  margin-right: 100px;
-}
-.sobre-mi h1 {
-  display: flex;
-  justify-content: center;
-  text-decoration: underline;
-}
-.sobre-mi p {
-  margin: 4px;
-  display: flex;
-  justify-content: center;
-}
-
-/*FIN SECCION SOBRE MI*/
-/*SECCION TURNOS*/
-body section.turnos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.texto-turnos {
-  width: 950px;
-  display: inline-block;
-}
-
-.titulo-turnos {
-  word-spacing: 8px;
-  letter-spacing: 6px;
-  margin-top: 15px;
-  background-color: #e9a5a5;
-}
-
-/*FIN SECCION TURNOS*/
-/*PIE DE PAGINA SIMPLE*/
-.footer-contacto {
-  background: #e0be9b;
-  background: linear-gradient(180deg, #e0be9b 0%, #b58179 50%);
-  display: flex;
-  align-items: center;
-}
-
-footer div.footer-text {
-  display: flex;
-  flex-direction: column;
-  margin-right: 565px;
-}
-footer div.footer-text div h3 {
-  font-family: "Cinzel", serif;
-  font-size: 35px;
-  width: 353px;
-  margin-left: 10px;
-  margin-bottom: 0px;
-}
-footer div.footer-text p {
-  font-family: "Cinzel", serif;
-  margin-left: 10px;
-  margin-bottom: 0px;
-}
-
-footer div.footer-redes {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/*FIN PIE DE PAGINA SIMPLE*/
-/*SECCION SERVICIOS*/
-.servicio-titulo {
-  display: flex;
-  justify-content: center;
-  font-size: 50px;
-}
-
-body div.container-cards {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 15px;
-}
-body div.container-cards div div.bg-card {
-  background-color: #f3c7c7;
-}
-body div.container-cards div.alineacion-texto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-body div.container-cards h5 {
-  background-color: #e9a5a5;
-}
-
-/*FIN SECCION SERVICIOS*/
 body section div.container-servicio {
   display: flex;
   background-color: rgba(255, 255, 255, 0.239);
@@ -418,6 +419,13 @@ body section div div.seccion-contacto {
   background-color: #e9a5a5;
 }
 
+/*QUERY MAPA*/
+@media only screen and (min-width: 370px) and (max-width: 960px) {
+  body div.container-contacto section iframe {
+    width: 350px;
+    height: 200px;
+  }
+}
 body section.protocolo {
   display: flex;
   flex-direction: column;
@@ -449,7 +457,6 @@ body section.protocolo {
 body section.container-protocolo {
   display: flex;
   margin: 15px;
-  margin-top: 30px;
 }
 body section.container-protocolo div.prevencion2 {
   display: flex;
@@ -457,12 +464,12 @@ body section.container-protocolo div.prevencion2 {
   margin-top: 15px;
   margin-right: 80px;
   font-size: 20px;
-  width: 600px;
   justify-content: center;
 }
 
 .titulo-protocolo {
   background-color: #e9a5a5;
+  text-align: center;
 }
 
 /*Variables*/
@@ -669,6 +676,52 @@ body section.container-protocolo div.prevencion2 {
 .active {
   background-color: #e9a5a5;
   color: white;
+}
+
+/*FOOTER DESKTOP*/
+@media only screen and (min-width: 370px) and (max-width: 960px) {
+  .footer-menu {
+    display: none;
+  }
+
+  .footer-sobremi {
+    display: none;
+  }
+}
+/*FOOTER MOBILE*/
+.footer-celular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid black;
+}
+
+.mobile-redes {
+  margin: 10px;
+}
+
+.texto-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.texto-mobile p {
+  padding: 0%;
+  margin: 0%;
+}
+
+@media only screen and (min-width: 961px) {
+  .footer-celular {
+    display: none;
+  }
+}
+@media only screen and (min-width: 370px) and (max-width: 960px) {
+  .container-protocolo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
