@@ -473,7 +473,7 @@ body section.container-protocolo div.prevencion2 {
 }
 
 /*Variables*/
-/*QUERYS SOBRE MI*/
+/*QUERYS INICIO*/
 @media only screen and (min-width: 370px) and (max-width: 960px) {
   .container-mobile {
     display: flex;
@@ -495,6 +495,7 @@ body section.container-protocolo div.prevencion2 {
     margin: 0px;
   }
 }
+/*QUERYS SOBRE MI*/
 @media only screen and (max-width: 400px) {
   .sobre-mi {
     display: flex;
