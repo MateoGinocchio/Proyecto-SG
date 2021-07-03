@@ -58,7 +58,7 @@
 
 /*QUERYS SERVICIOS*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 375px) {
     .container-cards {
         display: flex;
         flex-wrap: wrap;
@@ -72,7 +72,7 @@
 }
 
 
-@media only screen and (min-width:401px) and (max-width:960px) {
+@media only screen and (min-width:375px) and (max-width:960px) {
     .container-cards {
         display: flex;
         flex-wrap: wrap;
@@ -84,6 +84,18 @@
         margin-bottom: 15px;
     }
     
+}
+
+@media only screen and (min-width: 960px) {
+    .texto-servicios {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:375px) and (max-width:960px) {
+    .texto-servicios-mobile {
+        display: none;
+    }
 }
 
 /*QUERYS GALERIA*/
@@ -139,7 +151,7 @@
 
 /*QUERYS PROTOCOLO*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 370px) {
     .fotos-protocolo {
         display: flex;
         flex-direction: column;

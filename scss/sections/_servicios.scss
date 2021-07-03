@@ -9,6 +9,32 @@
     background-color: nth($colores, 2);
 }
 
+.texto-servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    p {
+        margin: 0px;
+    }
+}
+
+.texto-servicios-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    p {
+        margin: 0px;
+    }
+}
+
 body div.container-cards {
     display: flex;
     justify-content: space-evenly;
@@ -41,6 +67,12 @@ footer section.redes {
     } img {
         margin-top: 10px;
     }
+}
+
+.footer-menu {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
 }
 
 footer section nav ul li {

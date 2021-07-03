@@ -22,7 +22,9 @@
 
     <title>SG Cejas y Pestañas | BY S0L GIN0CCHI0</title>
     <!--Favicon-->
-    <link rel="icon" href="images/icono-sol.jpg">
+    <link rel="icon" href="images/icono-mobile.jpg">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -30,8 +32,9 @@
         <!--Menu-->
         <div class="container-menu">
             <!-- Logo -->
-            <img src="images/icono4.jpg" width="130px" height="94px" alt="Icono SG Cejas y Pestañas">
-
+            <a class="enlace-logo" href="index.html">
+                <img src="images/icono4.jpg" width="130px" height="94px" alt="Icono SG Cejas y Pestañas">
+            </a>
             <nav>
                 <ul>
                     <li>
@@ -95,7 +98,21 @@
         <h1 class="servicio-titulo">NUESTROS SERVICIOS</h1>
     </section>
 
-    <div class="container-cards">
+    <section class="texto-servicios">
+        <p>¡Agudiza tu mirada!</p>
+        <p>Prueba las últimas tendencias de belleza.</p>
+        <p>SG Cejas y Pestañas te ofrece un servicio</p>
+        <p>de alta calidad con las últimas técnicas</p>
+        <p>en Producción de Miradas. </p>
+        <p>Llevate una mirada única, en un servicio express</p>
+    </section>
+    <section class="texto-servicios-mobile">
+        <p>¡Agudiza tu mirada! Prueba las últimas tendencias de belleza.</p>
+        <p>SG Cejas y Pestañas te ofrece un servicio de alta calidad con las últimas técnicas en Producción de Miradas. </p>
+        <p>Llevate una mirada única, en un servicio express.</p>
+    </section>
+
+    <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="2000" class="container-cards">
         <div>
             <div class="card bg-card" style="width: 300px; height: 600px;">
                 <img src="images/Botox.jpg" class="card-img-top" alt="Imagen de botox lifting">
@@ -142,7 +159,7 @@
         </div>
     </div>
 
-    <div class="container-cards">
+    <div  data-aos="fade-left" data-aos-delay="200" data-aos-duration="2000" class="container-cards">
         <div>
             <div class="card bg-card" style="width: 300px; height: 600px;">
                 <img src="images/Lifting.jpg" class="card-img-top" alt="Imagen de lifting de pestañas">
@@ -260,6 +277,12 @@
             </div>
         </section>
     </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!--BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
